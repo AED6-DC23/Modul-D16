@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MMORPG </title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div class="wraper">
+        <header class="container">
+            <a href="index.html"><span class="logo">Survival Hero</span></a>
+            <nav>
+                <ul>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contacnts.html">Контакты</a></li>    
+                    <li class="navigation"><a href="mynews.html">Мои новости</a></li>                                        
+                    <li class="btn1"><a href="#">Sign-Up</a></li>
+                    <li class="btn2"><a href="#">Sign-In</a></li>                                      
+                </ul>
+            </nav>
+        </header>               
+        <div class="hero-info">
+            <img src="Photo/MMORGP1 rem.jpg" alt="">  
+            <div class="info">                
+                {% block body %}
+                { % endblock % }
+            </div>                       
+        </div>       
+    </div> 
+        
+</body>
+</html>
+
+
+
